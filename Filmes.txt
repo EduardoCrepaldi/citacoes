@@ -1,5 +1,31 @@
-"Não há certezas, apenas oportunidades." (V de Vingança)
-"Diga ’olá’ para meu pequeno amigo!" (Scarface)
+Aprendendo GitHub
 
-"Hasta la vista, baby." (Exterminador do Futuro 2)
-"----- Projeto X ----"
+echo ~ -> Mostra a pasta Pessoal
+
+cd ~/PastaOndeVoceQuer
+
+git init ->ira criar um repositorio Vazio
+
+git add conteudo.txt -> Comando para que o arquivo seja rastreado
+
+git status -> Podemos ver a situação dos arquivos no repositorio
+
+git commit -m "Nome para Salvar " -> Comando para gravar arquivo no repositorio (-m informa a mensagem do commit)
+
+git log -> Verifica o historico de alterações
+
+
+---------------------------------
+GitHUB compartilhando
+-Criar um repositorio
+-Apontar o a pasta do projeto cd ~/pasta
+
+$ git remote add origin URL AQUII ->
+Como comando anterior, apontamos o nome origin para o repositório
+lá do GitHub.
+
+Enviar alterações para o gitHub
+
+$ git push origin master -> Com o comando anterior, enviamos as alterações para o repositório remoto
+configurado com o nome origin.
+
